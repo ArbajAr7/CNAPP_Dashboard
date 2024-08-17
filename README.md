@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+React Project: "Accuknox" - README
+Overview
+This project is a React-based dashboard application that leverages Material-UI, Chart.js, and FontAwesome for its UI components and icons. It includes various widgets for cloud account monitoring and security assessments.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prerequisites
+Before running the project, ensure you have the following installed on your local machine:
 
-## Available Scripts
+Node.js (version 14.x or higher)
+npm (Node Package Manager) or yarn
 
-In the project directory, you can run:
+Installation
+1. Clone the Repository
+Clone the repository to your local machine using the following command:
 
-### `npm start`
+  > git clone https://github.com/your-username/accuknox.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the Project Directory
+   
+  > cd accuknox
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install Dependencies
+Install the necessary dependencies using npm or yarn:
 
-### `npm test`
+  > npm install [nameAndVersion]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Running the Application
+1. Start the Development Server
+To run the project in development mode, use the following command:
 
-### `npm run build`
+  > npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will start the development server, and the application will be available at http://localhost:3000/.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Building for Production
+To build the project for production, use:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  > npm run build
+> 
+This will create an optimized build of the application in the build/ directory.
 
-### `npm run eject`
+3. Running Tests
+To run the test suite, use:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  > npm test
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Project Structure
+public/: Contains the static assets and the main index.html.
+src/: Contains the main source code for the React application.
+components/: Reusable React components.
+App.js: Main application component.
+index.js: Entry point for the React application.
+package.json: Lists all the dependencies and scripts for the project.
+Dependencies
+The project relies on the following key dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React (react, react-dom): Core library for building user interfaces.
+Material-UI (@mui/material, @mui/icons-material): Provides a collection of React components that implement Google’s Material Design.
+Emotion (@emotion/react, @emotion/styled): Library for writing CSS styles with JavaScript.
+FontAwesome (@fortawesome/react-fontawesome, @fortawesome/free-solid-svg-icons): Icon library.
+Chart.js (chart.js, react-chartjs-2): Library for creating charts.
+Testing Libraries (@testing-library/react, @testing-library/jest-dom, @testing-library/user-event): Utilities for testing React components.
