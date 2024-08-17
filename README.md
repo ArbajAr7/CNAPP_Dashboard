@@ -18,7 +18,11 @@ Clone the repository to your local machine using the following command:
    
   > cd accuknox
 
-3. Install Dependencies
+3.  Install Node modules
+
+   > npm i
+
+4. Install Dependencies
 Install the necessary dependencies using npm or yarn:
 
   > npm install [nameAndVersion]
