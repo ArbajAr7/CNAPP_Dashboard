@@ -1,3 +1,5 @@
+Live Project Link: https://cnapp-dashboard.vercel.app/
+
 React Project: "Accuknox" - README
 Overview
 This project is a React-based dashboard application that leverages Material-UI, Chart.js, and FontAwesome for its UI components and icons. It includes various widgets for cloud account monitoring and security assessments.
